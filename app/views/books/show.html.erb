@@ -1,0 +1,12 @@
+<p>
+  <strong>tilte</strong>
+</p>
+<%= @book.title %>
+<P>
+  <strong>Body</strong>
+  <%= @book.body %>
+</P>
+
+<%= link_to "Edit", edit_book_path(@book) %>
+|
+<%= link_to "back", books_path %>
